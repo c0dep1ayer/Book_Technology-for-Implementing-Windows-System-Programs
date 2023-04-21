@@ -1,0 +1,18 @@
+// AtlServiceTest.idl : AtlServiceTest의 IDL 소스입니다.
+//
+
+// 이 파일은 MIDL 도구에 의해 처리되어
+// 형식 라이브러리(AtlServiceTest.tlb) 및 마샬링 코드가 생성됩니다.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(FE7516EB-0021-4C33-A6B3-407ACE5FD5D0),
+	version(1.0),
+]
+library AtlServiceTestLib
+{
+	importlib("stdole2.tlb");
+};
+

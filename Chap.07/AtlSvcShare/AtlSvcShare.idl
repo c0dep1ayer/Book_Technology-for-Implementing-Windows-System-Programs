@@ -1,0 +1,12 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(56366D46-CDF4-42C3-ABB1-F6290CC99E30),
+	version(1.0),
+]
+library AtlSvcShareLib
+{
+	importlib("stdole2.tlb");
+};
+

@@ -1,0 +1,12 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(D7BBEB5A-BB3B-4206-8F85-1A4FB6AD4BAF),
+	version(1.0),
+]
+library AtlSvcPipeLib
+{
+	importlib("stdole2.tlb");
+};
+
